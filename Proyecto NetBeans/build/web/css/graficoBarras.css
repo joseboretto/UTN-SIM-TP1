@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 24, 2016, 8:56:28 PM
+    Author     : Jose
+*/.graph {
+	border-width: 0 0 1px 1px;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, .25);
+	height: 200px;
+	margin: 0 0 15px 0;
+	position: relative;
+	white-space: nowrap;
+
+	background: rgba(0, 0, 0, .1);
+	font-size: 0;
+}
+.bar {
+	display: inline-block;
+	margin: 0 0 0 1px;
+	vertical-align: bottom;
+	position: relative;
+	width: 24px;
+
+	background: #2be;
+}
+.bar:first-child {
+	height: 100%;
+	margin: 0;
+	width: 0;
+}
